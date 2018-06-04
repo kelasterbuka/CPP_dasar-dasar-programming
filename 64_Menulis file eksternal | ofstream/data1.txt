@@ -1,0 +1,2 @@
+menuliskan baris baru pada data1
+123876

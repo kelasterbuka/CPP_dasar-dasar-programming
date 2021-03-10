@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
 	// f_n = f_n1 + f_n2
-
 	int n;
 	int f_n;
 	int f_n1;
@@ -27,6 +26,5 @@ int main()
 	}
 	cout << "\n";
 
-	cin.get();
 	return 0;
 }

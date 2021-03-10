@@ -2,19 +2,16 @@
 
 using namespace std;
 
-int main()
-{
-
+int main(){
 	int a = 5;
 	
 	while(a <= 10){
-		cout << "hore ";
+		cout << "Hore ";
 		cout << a << endl;
 		a += 1;
 	}
 
-	cout << "selesai" << endl;
+	cout << "Selesai" << endl;
 
-	cin.get();
 	return 0;
 }

@@ -2,17 +2,16 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
 	int a = 1;
 
 	do{
-		cout << "hore ";
+		cout << "Hore ";
 		cout << a << endl;
 		a++;
 	}while(a <= 10);
 
-	cout << "selesai" << endl;
-	cin.get();
+	cout << "Selesai" << endl;
+
 	return 0;
 }

@@ -1,16 +1,19 @@
 #include <iostream>
 
-//comment
-/* multi
-line
-comment
-*/
+using namespace std;
 
-int main()
-{
+// 	komentar
+/*	Komentar 
+	lebih
+	dari
+	satu
+	baris
+	*/
+
+int main(){
 	int a;
-	std::cout << "halo kalian" << std::endl;
-	std::cin >> a;
-	std::cout << a << std::endl;
+	cout << "halo kalian" << endl;
+	cin >> a;
+	cout << a << endl;
 	return 0;
 }

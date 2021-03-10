@@ -27,16 +27,14 @@ void tampilkan_keliling(double p, double l){
 }
 
 int main(){
-	
 	double panjang, lebar;
-	cout << "Panjang : ";
+	cout << "Panjang: ";
 	cin >> panjang;
-	cout << "Lebar : ";
+	cout << "Lebar: ";
 	cin >> lebar;
 
-	tampilkan_luas(panjang,lebar);
-	tampilkan_keliling(panjang,lebar);
+	tampilkan_luas(panjang, lebar);
+	tampilkan_keliling(panjang, lebar);
 	
-	cin.get();
 	return 0;
 }

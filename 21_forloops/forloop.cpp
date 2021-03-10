@@ -2,9 +2,7 @@
 
 using namespace std;
 
-int main()
-{
-	
+int main(){
 	cout << "Loop 1 \n"; 
 	for(int i = 1; i <= 10; i++){
 		cout << i << endl; 
@@ -21,12 +19,10 @@ int main()
 	}
 
 	cout << "\n Loop4 \n";
-
 	int total = 0;
 	for(int i = 1; i <= 10; i++, total += i){
 		cout << i << " || " << total << endl; 
 	}
-
 
 	return 0;
 }

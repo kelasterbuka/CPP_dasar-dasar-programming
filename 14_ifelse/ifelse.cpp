@@ -6,20 +6,20 @@ int main(){
 
 	int a;
 
-	cout << "masukan angka = ";
+	cout << "Masukan angka: ";
 	cin >> a;
 
 	if (a == 5){
-		cout << "nilai ini adalah 5" << endl;
+		cout << "Nilai ini adalah " << a << endl;
 	} else if (a == 3){
-		cout << "nilai ini adalah 3" << endl;
+		cout << "Nilai ini adalah " << a << endl;
 	} else if (a == 1){
-		cout << "nilai ini adalah 1" << endl;
+		cout << "Nilai ini adalah " << a << endl;
 	} else {
-		cout << "bukan 5,3, atau 1" << endl;
+		cout << "Bukan 5, 3, atau 1" << endl;
 	}
 
-	cout << "selesai" << endl;
-	cin.get();
+	cout << "Selesai" << endl;
+	
 	return 0;
 }

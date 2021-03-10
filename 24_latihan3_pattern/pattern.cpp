@@ -1,8 +1,8 @@
 #include <iostream>
+
 using namespace std;
 
-int main()
-{
+int main(){
 	int n;
 
 	cout << "Masukan panjang pola: ";
@@ -26,6 +26,5 @@ int main()
 		cout << endl;
 	}
 
-	cin.get();
 	return 0;
 }

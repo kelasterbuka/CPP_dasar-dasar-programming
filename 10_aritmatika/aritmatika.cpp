@@ -33,7 +33,6 @@ int main(){
 	hasil = a + b * a;
 	cout << hasil << endl; 
 
-	cin.get();
 	return 0;
 }
 

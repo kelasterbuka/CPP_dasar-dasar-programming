@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(){
-	
 	int i = 0;
 	while(i <= 10){
 		i++;
@@ -15,8 +14,7 @@ int main(){
 		
 	}
 
-	cout << "akhirnya" << endl; 
+	cout << "Akhirnya" << endl; 
 
-	cin.get();
 	return 0;
 }

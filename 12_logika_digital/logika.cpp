@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
 	int a = 3;
 	int b = 2;
 
@@ -37,7 +36,5 @@ int main()
 	hasil = (a == 4) || (b == 3); // false and false
 	cout << hasil << endl;
 
-
-	cin.get();
 	return 0;
 }

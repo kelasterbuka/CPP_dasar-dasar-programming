@@ -2,19 +2,21 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 	int a;
 
-	cout << "Masukan angka: ";
+	cout << "masukan angka = ";
 	cin >> a;
 
 	// if statement
 	// kondisi dalam bentuk boolean
-	if (a == 5){
-		cout << "Halooo" << endl;
+	if (a == 5)
+	{
+		cout << "halooo" << endl;
 	}
 
-	cout << "Selesai" << endl;
-
+	cout << "selesai" << endl;
+	cin.get();
 	return 0;
 }

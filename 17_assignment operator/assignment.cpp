@@ -2,11 +2,13 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
+
 	// assignment
 	int a = 10;
 
-	cout << "Nilai awal dari a adalah: " << a << endl;
+	cout << "nilai awal dari a adalah: " << a << endl;
 
 	// assignment operator
 	// variabel = variabel operator ekspresi
@@ -29,5 +31,6 @@ int main(){
 	a %= 3;
 	cout << "dimodulus 3 menjadi " << a << endl;	
 
+	cin.get();
 	return 0;
 }

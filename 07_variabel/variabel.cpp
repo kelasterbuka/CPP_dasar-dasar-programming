@@ -1,12 +1,10 @@
 #include <iostream>
 
-using namespace std;
-
 int main(){
 
 	int a = 5;
 
-	cout << a << std::endl;
-	
+	std::cout << a << std::endl;
+	std::cin.get();
 	return 0;
 }

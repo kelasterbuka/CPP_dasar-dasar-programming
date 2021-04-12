@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int kuadrat(int x){
@@ -14,22 +13,23 @@ int tambah(int a, int b){
 	return c;
 }
 
-// int main(int argc, char const *argv[]){
-int main(){
+int main(int argc, char const *argv[]){
+
 	int input, hasil, a, b, hasil2;
-	cout << "Nilai kuadrat dari: ";
+	cout << "nilai kuadrat dari: ";
 	cin >> input;
 
 	hasil = kuadrat(input);
 	cout << hasil << endl;
 
-	cout << "Masukan nilai a: ";
+	cout << "masukan nilai a: ";
 	cin >> a;
-	cout << "Masukan nilai b: ";
+	cout << "masukan nilai b: ";
 	cin >> b;
 
-	hasil2 = tambah(a, b);
+	hasil2 = tambah(a,b);
 	cout << hasil2 << endl;
 
+	cin.get();
 	return 0;
 }

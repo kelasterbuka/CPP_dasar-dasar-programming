@@ -2,10 +2,11 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 	int a;
 
-	cout << "Masukan angka: ";
+	cout << "masukan nilai = ";
 	cin >> a;
 
 	switch(a){
@@ -14,22 +15,17 @@ int main(){
 			break;
 		case 2:
 			cout << "a = 2" << endl;
-			break;
 		case 3:
 			cout << "a = 3" << endl;
-			break;
 		case 4:
 			cout << "a = 4" << endl;
-			break;
 		case 5:
 			cout << "a = 5" << endl;
-			break;
 		default:
-			cout << "Nilai lebih kecil dari 1 atau lebih besar dari 5" << endl;
-			break;
+			cout << "default" << endl;
 	}
 
-	cout << "Selesai" << endl;
+	cout << "akhir dari program" << endl;
 
 	return 0;
 }

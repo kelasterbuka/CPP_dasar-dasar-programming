@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+	
 	char lanjut;
 	while(true){
 		cout << "Lempar dadu? (y/n)";
@@ -18,5 +19,6 @@ int main(){
 		}
 	}
 	
+	cin.get();
 	return 0;
 }

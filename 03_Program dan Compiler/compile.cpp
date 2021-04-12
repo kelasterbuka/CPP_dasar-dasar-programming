@@ -1,11 +1,9 @@
 #include <iostream>
-#include "tambah.h"
-
-using namespace std;
 
 int tambah(int a, int b);
 
-int main(){
-	cout << tambah(2, 3) << endl;
+int main()
+{
+	std::cout << tambah(2,3) << std::endl;
 	return 0;
 }

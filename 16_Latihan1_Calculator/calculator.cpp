@@ -2,16 +2,17 @@
 
 using namespace std;
 
-int main(){
-	float a, b, hasil;
+int main()
+{
+	float a,b,hasil;
 	char aritmatika;
 
-	cout << "Selamat datang di program Kalkulator \n \n";
+	cout << "Selamat datang di program calculator \n \n";
 
 	// memasukan input dari user
 	cout << "Masukan nilai pertama: ";
 	cin >> a;
-	cout << "Pilih operator +, -, /, *: ";
+	cout << "Pilih operator +,-,/,*: ";
 	cin >> aritmatika;
 	cout << "Masukan nilai kedua: ";
 	cin >> b;
@@ -28,10 +29,11 @@ int main(){
 	} else if (aritmatika == '*'){
 		hasil = a * b;
 	} else {
-		cout << "Operator anda salah" << endl;
+		cout << "operator anda salah" << endl;
 	}
 
 	cout << " = " << hasil << endl;
 
+	cin.get();
 	return 0;
 }

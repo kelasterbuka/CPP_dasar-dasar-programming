@@ -14,5 +14,6 @@ int main(){
 	cout << "nilai yang anda masukan adalah: ";
 	cout << b << endl;
 
+	cin.get();
 	return 0;
 }

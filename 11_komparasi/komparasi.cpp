@@ -29,6 +29,6 @@ int main()
 	cout <<  hasil1 << endl;
 	cout <<  hasil2 << endl;
 
-
+	cin.get();
 	return 0;
 }

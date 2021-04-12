@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 	// increment dan decrement
 	// preincrement dan postincrement
+
 	int a = 5;
 	int b = 5;
 
@@ -17,6 +19,9 @@ int main(){
 	cout << ++b << endl;
 	cout << b << endl;
 
+
+
+	cin.get();
 	return 0;
 }
 

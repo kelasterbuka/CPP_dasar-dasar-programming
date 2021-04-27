@@ -1,8 +1,12 @@
+/*
+	Pengenalan Fungsi Rekursif
+*/
 #include <iostream>
+
 using namespace std;
 
-// fungsi rekursif terbatas
-int pangkatIterasi(int a, int b){
+// Fungsi pengulangan
+int pangkatiterasi(int a, int b){
 	int hasil = a;
 	for(int i = 1; i < b; i++){
 		hasil = hasil * a;
@@ -10,26 +14,27 @@ int pangkatIterasi(int a, int b){
 	return hasil;
 }
 
-int pangkatRekursif(int a,int b){
+// Fungsi rekursif sederhana
+int pangkatrekursif(int a,int b){
 	if (b <= 1){
-		cout << "akhir dari rekursif\n";
+		cout << "Akhir dari rekursif\n";
 		return a;
-	}else{
-		cout << "rekursif\n";
-		return a * pangkatRekursif(a,(b - 1));
+	}
+	else{
+		cout << "Rekursif\n";
+		return a * pangkatrekursif(a, (b - 1));
 	}
 }
 
-int main(){
-	int a;
-	int b;
-	cout << "angka: ";
-	cin >> a;
-	cout << "pangkat: ";
-	cin >> b;
-	cout << "hasil iterasi = " << pangkatIterasi(a,b) << endl;
-	cout << "hasil rekursif = " << pangkatRekursif(a,b) << endl;
+int main(int argc, char** argv){
+	int a, b;
 
-	cin.get();
+	cout << "Angka: ";
+	cin >> a;
+	cout << "Pangkat: ";
+	cin >> b;
+	cout << "Hasil iterasi = " << pangkatiterasi(a, b) << endl;
+	cout << "Hasil rekursif = " << pangkatrekursif(a, b) << endl;
+
 	return 0;
 }

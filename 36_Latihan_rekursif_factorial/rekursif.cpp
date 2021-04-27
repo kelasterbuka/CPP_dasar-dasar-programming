@@ -1,19 +1,18 @@
 #include <iostream>
 using namespace std;
 
-// prototype
+// Fungsi Prototype
 int faktorial(int n);
 
-int main(){
+int main(int argc, char** argv){
 
 	int angka, hasil;
-	cout << "menghitung faktorial dari : ";
+	cout << "Menghitung faktorial dari: ";
 	cin >> angka;
 
 	hasil = faktorial(angka);
-	cout << "\nnilai faktorialnya adalah : " << hasil << endl;
+	cout << "\nnilai faktorialnya adalah: " << hasil << endl;
 
-	cin.get();
 	return 0;
 }
 

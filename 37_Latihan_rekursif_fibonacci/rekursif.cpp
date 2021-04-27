@@ -1,23 +1,24 @@
 #include <iostream>
 using namespace std;
 
+// Fungsi Prototype
 long fibonacci(long n);
 
-int main(){
+int main(int argc, char** argv){
 	
 	long angka,hasil;
-	cout << "menghitung fibonacci ke : " << endl;
+	cout << "Menghitung fibonacci ke: " << endl;
 	cin >> angka;
 	hasil = fibonacci(angka);
 
-	cout << "nilainya adalah : ";
+	cout << "Nilainya adalah : ";
 	cout << hasil << endl;
-	cin.get();	
+
 	return 0;
 }
 
 long fibonacci(long n){
-	cout << "fibonacci ke " << n << endl;
+	cout << "Fibonacci ke " << n << endl;
 	if((n == 0)||(n == 1)){
 		return n;
 	}else{

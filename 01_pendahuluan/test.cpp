@@ -8,9 +8,9 @@ comment
 
 int main()
 {
-	int a;
-	std::cout << "halo kalian" << std::endl;
-	std::cin >> a;
-	std::cout << a << std::endl;
+  std::string nama;
+	std::cout << "Nama anda: ";
+	std::cin >> nama;
+	std::cout << "Hallo " << nama << std::endl;
 	return 0;
 }

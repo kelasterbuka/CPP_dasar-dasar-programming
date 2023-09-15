@@ -9,7 +9,7 @@ comment
 int main()
 {
 	int a;
-	std::cout << "halo kalian" << std::endl;
+	std::cout << "halo kalian semua" << std::endl;
 	std::cin >> a;
 	std::cout << a << std::endl;
 	return 0;
